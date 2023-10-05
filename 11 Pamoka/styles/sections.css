@@ -1,0 +1,9 @@
+.cover{
+    background-image: url(../images/uzskland.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+section:not(#home){
+    padding: 5rem 0;
+}

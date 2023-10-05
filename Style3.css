@@ -1,0 +1,22 @@
+.text-align-3 {
+text-align: center;
+}
+
+.fsize {
+font-size: 100px;
+background-color: green; 
+color: black;
+}
+
+
+.high-light {
+    background-color: green;
+padding: 5px;
+}
+
+.dsize {
+border: 1px solid green;
+}
+
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="Style2.css">
+
+<div class="text-align-3 fsize">Jquery2</div>
+
+
+
+</div>
+
+<h1>______________________________________________________________________________________________________________________</h1> 
+
+<script>
+$(document).ready(function(){
+ $("#click1").click(function(){
+  $("#hide1").hide(1000);
+ });
+});
+</script>
+<div id="click1">Spustelk</div>
+<div id="hide1">AteAte</div>
+
+
+<script>
+$(document).ready(function(){
+ $("#click2").click(function(){
+   $("#hide2").toggle();
+ });
+});
+</script>
+<div id="click2">Dar Kart Spustelk</div>
+<div id="hide2">Dar Kart AteAte</div>
+
+<h1>______________________________________________________________________________________________________________________</h1>
+
+<script>
+$(document).ready(function(){
+ $("#click3").click(function(){
+  $("#div12").fadeOut();
+  $("#div22").fadeOut("slow");
+  $("#div32").fadeOut(3000);
+ });
+});
+</script>
+<div id="click3">Mygtukas</div>
+<div id="div12">Funkcija</div>
+<div id="div22">Funkcija</div>
+<div id="div32"Funkcija</div>
+
+<h1>______________________________________________________________________________________________________________________</h1>
+
+<script>
+$(document).ready(function(){
+ $("button").click(function(){
+  $("#div1").fadeTo("slow", 0.15);
+  $("#div2").fadeTo("slow", 0.4);
+  $("#div3").fadeTo("slow", 0.7);
+ });
+});
+</script>
+<div id="button">Mygtukas</div>
+<div id="div1">Funkcija</div>
+<div id="div2">Funkcija</div>
+<div id="div3">Funkcija</div>
+
+<h1>______________________________________________________________________________________________________________________</h1>
+
+<script>
+$(document).ready(function(){
+ $("#button2").click(function(){
+  $("#anim1").animate({marginLeft: '250px'});
+ });
+});
+</script>
+<div id="button2">Mygtukas</div>
+<div id="anim1">Funkcija</div>
+
+<h1>______________________________________________________________________________________________________________________</h1>
+
+<script>
+$(document).ready(function(){
+ $("#button3").click(function(){
+  $("#anim2").animate({
+   left: '250px',
+   opacity: '0.5',
+   height: '150px',
+   width: '150px'
+  });
+ });
+});
+</script>
+<div id="button3">Mygtukas</div>
+<div id="anim2">Funkcija</div>
+
+<h1>______________________________________________________________________________________________________________________</h1>
+
+<script>
+$(document).ready(function(){
+ $("#button4").click(function(){
+  $("#anim3").animate({
+   left: '250px',
+   height: '+=150px',
+   width: '+=150px'
+  });
+ });
+});
+</script>
+<div id="button4">Mygtukas</div>
+<div id="anim3" style="background-color: green; height: 150px; width: 150px;">Funkcija</div>
+
+<h1>______________________________________________________________________________________________________________________</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

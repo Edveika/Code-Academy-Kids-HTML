@@ -1,0 +1,40 @@
+.bg {
+  background-color: yellow;
+}
+
+.bg-img {
+ background-image: url("paper.gif");
+width: 2000px;
+height:700px;
+}
+
+.border-dotted {border-style: dotted;}
+.border-dashed {border-style: dashed;}
+.border-solid {border-style: solid;}
+.border-double {border-style: double;}
+.border-groove {border-style: groove;}
+.border-ridge {border-style: ridge;}
+.border-inset {border-style: inset;}
+.border-ouset {border-style: outset;}
+.border-none {border-style: none;}
+.border-hidden {border-style: hidden;}
+.bordre-mix {border-style: dotted dashed solit double;}
+
+.border-radius-5 {
+Border: 1px solid red;
+border-radius: 5px
+}
+
+.margin-l {
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-right: 150px;
+ margin-left: 80px;
+}
+
+.padding-l {
+ padding-top: 50px;
+ padding-right: 30px;
+ padding-bottom: 50px;
+ padding-left: 80px;
+}
